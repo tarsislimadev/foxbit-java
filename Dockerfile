@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD java Main.java
+CMD java app/src/main/java/com/foxbit/app/App.java

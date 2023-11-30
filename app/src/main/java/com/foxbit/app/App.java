@@ -34,7 +34,7 @@ public class App
   
   public static void main( String[] args )
   {
-    Main app = new Main();
+    App app = new App();
 
     System.out.println("mainMenu: " + app.mainMenu());
   }
