@@ -1,4 +1,4 @@
-FROM openjdk:14-alpine
+FROM tmvdl/java:maven
 
 WORKDIR /app
 
