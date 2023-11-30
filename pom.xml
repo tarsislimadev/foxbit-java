@@ -8,17 +8,23 @@
   <artifactId>app</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>app</name>
-  <!-- FIXME change it to the project's website -->
+  <name>Foxbit</name>
+  <packaging>pom</packaging>
+  <description>Foxbit</description>
   <url>http://www.example.com</url>
 
   <properties>
+    <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <dependencyManagement>
+  </dependencyManagement>
+
   <dependencies>
+    <!-- Common test dependencies -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -28,6 +34,8 @@
   </dependencies>
 
   <build>
+    <defaultGoal>install</defaultGoal>
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
@@ -74,10 +82,10 @@
   </build>
 
   <distributionManagement>
-    <repository>
+    <snapshotRepository>
       <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://github.com/brtmvdl/foxbit-java</url>
-    </repository>
-  </distributionManagement>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/brtmvdl/foxbit-java</url>
+    </snapshotRepository>
+ </distributionManagement>
 </project>
