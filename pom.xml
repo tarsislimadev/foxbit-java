@@ -72,14 +72,4 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  <packaging>pom</packaging>
-
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/brtmvdl/foxbit-java</url>
-    </repository>
-  </distributionManagement>
 </project>
