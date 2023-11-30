@@ -23,6 +23,16 @@
   <dependencyManagement>
   </dependencyManagement>
 
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>foxbit</id>
+      <name>Foxbit (openjdk 11)</name>
+      <url>git@github.com:brtmvdl/foxbit-java.git</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <!-- Common test dependencies -->
     <dependency>
