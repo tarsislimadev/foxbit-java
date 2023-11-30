@@ -3,7 +3,7 @@ version: '3'
 services:
 
   app:
-    build: './src/app'
+    build: '.'
     volumes:
-      - './src/app:/app'
+      - '.:/app'
       - './data:/data'
