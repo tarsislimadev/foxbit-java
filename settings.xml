@@ -4,10 +4,6 @@
   <localRepository>${user.home}/.m2/repository</localRepository>
   <interactiveMode>true</interactiveMode>
   <offline>false</offline>
-  <pluginGroups></pluginGroups>
-  <activeProfiles>
-    <activeProfile>env-test</activeProfile>
-  </activeProfiles>
   <servers>
       <server>
           <id>github</id>
