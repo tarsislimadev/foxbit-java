@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>com.foxbit.app.plugins</groupId>
+  <artifactId>maven-jar-plugin</artifactId>
+  <versioning>
+    <latest>0.1.0</latest>
+    <release>0.1.0</release>
+    <versions></versions>
+    <lastUpdated>20231130180506</lastUpdated>
+  </versioning>
+</metadata>
